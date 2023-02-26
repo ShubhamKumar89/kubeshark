@@ -32,7 +32,7 @@ kubeshark tap -n <namespace>
 
 > Note: Once you run the CLI, a browser window will open at `localhost:8899` by default.
 
-##### To use it in a **remote server**, you can run the kubeshark command with `--proxy-host 0.0.0.0` flag. [Requirements](https://docs.kubeshark.co/en/config#web-ui--ip-and-accessibility)
+##### To use it in a **remote server**, you can run the kubeshark command with `--proxy-host 0.0.0.0` flag. [Requirements for AWS like Platforms](https://docs.kubeshark.co/en/config#web-ui--ip-and-accessibility)
 
 ```
 kubeshark tap -A --tls --proxy-host 0.0.0.0
